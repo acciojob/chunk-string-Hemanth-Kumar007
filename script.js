@@ -2,8 +2,8 @@ function stringChop(str, size) {
   // your code here
 	let ans = [];
 	let i=0;
-	while(i<str.length-1){
-		ans.push(str.slice(i,i+2));
+	while(i<=str.length-1){
+		ans.push(str.slice(i,i+size));
 		i = i+2;
 	}
 	console.log(ans);
