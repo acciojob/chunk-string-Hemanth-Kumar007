@@ -4,7 +4,7 @@ function stringChop(str, size) {
 	let i=0;
 	while(i<=str.length-1){
 		ans.push(str.slice(i,i+size));
-		i = i+2;
+		i = i+size;
 	}
 	// console.log(ans);
 }
